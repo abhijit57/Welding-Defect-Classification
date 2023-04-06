@@ -9,7 +9,7 @@ The data was collected from Kaggle. It consists of 2 folders: train and test, ea
 •	Link: https://drive.google.com/file/d/1Rnqn6CpbjTNwmqPT1lwB7-Y7B2yWnz9O/view?usp=sharing
 
 ## 3.	METHOD
-We implemented an image classification model preferably using pre-trained image classification models like ResNet, EfficientNet along with optimization to achieve the above-mentioned objective. These Convolutional Neural Networks (ResNet, EfficientNet) would have been previously trained on the ImageNet database. Before this, we pre-processed the images with steps like compression, resizing, augmentation (rotation, flip, changing brightness, exposure, and saturation) to create more training data for the model to generalize even better.
+We implemented an image classification model preferably using pre-trained image classification models like ResNet, EfficientNet along with optimization to achieve the above-mentioned objective. These Convolutional Neural Networks (ResNet, ShuffleNet v2) would have been previously trained on the ImageNet database. Before this, we pre-processed the images with steps like compression, resizing, augmentation (rotation, flip, changing brightness, exposure, and saturation) to create more training data for the model to generalize even better.
 
 ## 4.	EXPECTED RESULT
 Once the model was trained, it gave us binary predictions on test (unseen) images with classes such as good welding and bad welding. The model's performance was evalauted with it's prediction accuracy. These binary inferences could then prove useful in the further stages.
